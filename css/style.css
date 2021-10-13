@@ -1,7 +1,36 @@
 
+
+.td-header-button:focus{
+   box-shadow: 0px 0 0 0.15rem black; 
+   border-color: white;
+}
+
+.td-jumbo-button:focus{
+   box-shadow: 0px 0 0 0.15rem #DC3545; 
+   border-color: white;
+}
+
+.td-button{
+   border-radius: 20px;
+}
+
+
 /* header */
 
 /* sony line */
+
+header{
+   position: relative;
+}
+
+.header-fixed{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 999;
+}
+
 .black-line-sony{
    background-color: black;
    height: 30px;
@@ -35,15 +64,9 @@
    padding-right: 10px;
 }
 
-.td-button-animation{
+.td-header-button{
    background-color: black;
-}
-
-.td-button-animation:focus{
-   color: #fff;
-   background-color: black;
-   border-color: white;
-   box-shadow: 0px 0 0 0.15rem black; 
+   
 }
 
 .search-lens img{
@@ -52,3 +75,36 @@
 }
 
 /* /header */
+
+/* jumbotron */
+
+.jumbotron{
+   min-height: 675px;
+   background-image: url(../img/jumbo-bg.png);
+   background-position: center;
+   margin-top: 100px;
+   position: relative;
+}
+
+.jumbo-text{
+   position: absolute;
+   bottom: 50px;
+   left: 0;
+   width: 100%;
+   color: white;
+}
+
+.jumbo-text h3{
+   font-size: 60px;
+   margin-bottom: 35px;
+}
+
+.jumbo-text p{
+   margin-bottom: 30px;
+}
+
+.jumbo-text img{
+   width: 100%;
+   margin-bottom: 50px;
+   margin-left: -10px;
+}
