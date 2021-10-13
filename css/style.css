@@ -1,0 +1,27 @@
+
+/* header */
+
+.black-line-sony{
+   background-color: black;
+   height: 30px;
+   width: 100%;
+   text-align: end;
+}
+
+.black-line-sony a{
+   padding: 5px;
+}
+
+.black-line-sony img{
+   width: 80px;
+}
+
+.td-navbar-link{
+   color: black !important;
+}
+
+.td-navbar-link:focus{
+   color: #0570D1 !important;
+}
+
+/* /header */
