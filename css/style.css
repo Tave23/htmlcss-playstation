@@ -1,6 +1,7 @@
 
 /* header */
 
+/* sony line */
 .black-line-sony{
    background-color: black;
    height: 30px;
@@ -16,12 +17,38 @@
    width: 80px;
 }
 
+/* /sony line */
+
 .td-navbar-link{
    color: black !important;
 }
 
 .td-navbar-link:focus{
    color: #0570D1 !important;
+}
+
+.td-navbar-link:hover{
+   color: #0570D1 !important;
+}
+
+.dt-nav-right{
+   padding-right: 10px;
+}
+
+.td-button-animation{
+   background-color: black;
+}
+
+.td-button-animation:focus{
+   color: #fff;
+   background-color: black;
+   border-color: white;
+   box-shadow: 0px 0 0 0.15rem black; 
+}
+
+.search-lens img{
+   width: 30px;
+   padding-left: 10px;
 }
 
 /* /header */
