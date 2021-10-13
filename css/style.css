@@ -108,3 +108,39 @@ header{
    margin-bottom: 50px;
    margin-left: -10px;
 }
+
+/* /jumbotron */
+
+/* copertine giochi */
+
+.box-thumb-img img{
+   width: 100%;
+}
+
+.box-thumb-img{
+   margin-top: 30px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.box-thumb-img:hover{
+   box-shadow: 0px 0 0 0.15rem #0570D1; 
+   border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+   height: 200px;
+   width: 100%;
+   background-color: white;
+}
+/* /footer */
