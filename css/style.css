@@ -326,6 +326,19 @@ header{
 }
 
 /* /sconti-store */
+/* social */
+
+.social{
+   padding: 50px 20px;
+}
+
+.intro-social{
+   text-align: center;
+}
+
+
+
+/* /social */
 
 
 
@@ -377,11 +390,6 @@ footer{
 .td-ps-now-button:hover{
    color: #0570D1;
 }
-
-.td-ps-now-button{
-
-}
-
 
 .td-button{
    border-radius: 20px;
