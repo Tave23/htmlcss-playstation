@@ -1,4 +1,8 @@
-
+.clearfix::after{
+   content: '';
+   display: table;
+   clear: both;
+}
 
 /* header */
 
@@ -58,6 +62,47 @@ header{
    width: 30px;
    padding-left: 10px;
 }
+
+/* dropdown menu customized */
+
+.td-dropdown-custom{
+   width: 90vw;
+   padding-left: 300px;
+}
+
+.td-dropdown-custom.show{
+   display: flex;
+}
+
+.dropdown-menu p{
+   margin-left: 50px;
+}
+
+.td-dropdown-custom.hardware{
+   left: -75px;
+}
+
+.td-dropdown-custom.servizi{
+   left: -175px;
+}
+
+.td-dropdown-custom.novita{
+   left: -275px;
+}
+
+.td-dropdown-custom.acquisti{
+   left: -375px;
+}
+
+.td-dropdown-custom.supporto{
+   left: -475px;
+}
+
+.td-dropdown-custom.myplaystation{
+   right: -75px;
+   left: auto;
+}
+
 
 /* /header */
 
