@@ -61,7 +61,7 @@ header{
 
 /* /header */
 
-/* jumbotron */
+/* first jumbotron */
 
 .first-jumbo{
    background-image: url(../img/jumbo-bg.png);
@@ -99,7 +99,7 @@ header{
    margin-left: -10px;
 }
 
-/* /jumbotron */
+/* /first jumbotron */
 
 /* copertine giochi */
 
@@ -181,7 +181,7 @@ header{
 
    /* /console ps5 */
 /* /info ps5 */
-/* jumbotron */
+/* second jumbotron */
 
    .jumbotron.second-jumbo{
       background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -192,7 +192,34 @@ header{
       width: 70%;
    }
 
-/* /jumbotron */
+/* /second jumbotron */
+/* nuove uscite */
+
+   .nuove-uscite{
+      background-color: #1F1F1F;
+   }
+
+   .nuove-uscite .container-uscite{
+      color: white;
+      width: 100%;
+      padding: 20px;
+   }
+
+   .second-box-thumb-img img{
+      width: 100%;
+      border-radius: 10px;
+   }
+
+   .second-box-thumb-img img:hover{
+      box-shadow: 0px 0 0 0.15rem #0570D1; 
+      border: 1px solid white;
+   }
+
+   .container-uscite p{
+      font-size: 18px;
+   }
+   
+/* /nuove uscite */
 
 
 
