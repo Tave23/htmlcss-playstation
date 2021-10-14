@@ -103,6 +103,10 @@ header{
 
 /* copertine giochi */
 
+.copertine-giochi{
+   padding: 40px 0;
+}
+
 .box-thumb-img img{
    width: 100%;
 }
