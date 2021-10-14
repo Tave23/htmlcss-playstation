@@ -351,23 +351,58 @@ header{
    }
 }
 
-
 /* /social */
-
-
-
-
-
-
-
-
-
 
 /* footer */
 footer{
-   height: 200px;
    width: 100%;
-   background-color: white;
+   background-color: #02439C;
+   padding: 50px 20px;
+}
+
+.footer-ps img{
+   width: 25%;
+}
+
+.footer-ps p{
+   padding-top: 30px;
+   font-size: 20px;
+   color: white;
+   cursor: pointer;
+}
+
+.footer-ps i{
+   padding-right: 10px;
+}
+
+.link-footer ul{
+   list-style: none;
+   padding-bottom: 20px;
+}
+
+.link-footer li{
+   padding-bottom: 10px;
+}
+
+.link-footer li a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-sie img{
+   width: 25%;
+}
+
+.footer-sie p{
+   color: white;
+}
+
+.footer-sie a{
+   color: white;
+}
+
+.link-footer li a:hover{
+   font-size: 18px;
 }
 /* /footer */
 
