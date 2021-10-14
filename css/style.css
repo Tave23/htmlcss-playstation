@@ -67,7 +67,6 @@ header{
 
 .td-dropdown-custom{
    width: 90vw;
-   padding-left: 300px;
 }
 
 .td-dropdown-custom.show{
@@ -101,6 +100,10 @@ header{
 .td-dropdown-custom.myplaystation{
    right: -75px;
    left: auto;
+}
+
+.td-dropdown-custom p{
+   cursor: pointer;
 }
 
 
