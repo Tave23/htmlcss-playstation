@@ -199,10 +199,14 @@ header{
       background-color: #1F1F1F;
    }
 
+   .nuove-uscite h6{
+      padding-bottom: 10px;
+   }
+
    .nuove-uscite .container-uscite{
       color: white;
       width: 100%;
-      padding: 20px;
+      padding: 20px 20px 30px;
    }
 
    .second-box-thumb-img img{
@@ -220,11 +224,37 @@ header{
    }
    
 /* /nuove uscite */
+/* esplora ps4 */
 
+.esplora-ps4{
+   width: 100%;
+   padding: 20px;
+}
 
+.intro-ps4{
+   text-align: center;
+   padding-top: 30px;
+}
 
+.intro-ps4 h2{
+   margin-bottom: 20px;
+   font-size: 35px;
+}
 
+.intro-ps4 p,
+.main-ps4 p{
+   color: gray;
+}
 
+.main-ps4{
+   padding-top: 50px;
+}
+
+.main-ps4 .box img{
+   width: 100%;
+}
+
+/* /esplora ps4 */
 
 
 
