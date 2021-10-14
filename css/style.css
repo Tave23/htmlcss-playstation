@@ -334,8 +334,22 @@ header{
 
 .intro-social{
    text-align: center;
+   padding-bottom: 40px;
 }
 
+.logo-social img{
+   width: 100%;
+}
+
+.logo-social{
+   padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+   .social{
+      padding: 50px 250px;
+   }
+}
 
 
 /* /social */
