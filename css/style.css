@@ -63,12 +63,16 @@ header{
 
 /* jumbotron */
 
-.jumbotron{
-   min-height: 675px;
+.first-jumbo{
    background-image: url(../img/jumbo-bg.png);
+   min-height: 675px; 
+}
+
+.jumbotron{
    background-position: center;
    margin-top: 100px;
    position: relative;
+   
 }
 
 .jumbo-text{
@@ -77,6 +81,7 @@ header{
    left: 0;
    width: 100%;
    color: white;
+   padding-left: 20px;
 }
 
 .jumbo-text h3{
@@ -176,6 +181,18 @@ header{
 
    /* /console ps5 */
 /* /info ps5 */
+/* jumbotron */
+
+   .jumbotron.second-jumbo{
+      background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+      min-height: 900px;
+   }
+
+   .jumbotron.second-jumbo .jumbo-text img{
+      width: 70%;
+   }
+
+/* /jumbotron */
 
 
 
