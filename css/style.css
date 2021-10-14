@@ -230,11 +230,6 @@ header{
       border-radius: 10px;
    }
 
-   .second-box-thumb-img img:hover{
-      box-shadow: 0px 0 0 0.15rem #0570D1; 
-      border: 1px solid white;
-   }
-
    .container-uscite p{
       font-size: 18px;
    }
@@ -342,7 +337,7 @@ header{
 }
 
 .logo-social{
-   padding-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 @media screen and (min-width:768px){
@@ -443,4 +438,50 @@ footer{
 .td-button{
    border-radius: 20px;
 }
+
+/* overlay*/
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   visibility: hidden;
+   transition: background-color 0.5s;
+}
+
+.overlay-giochi{
+   border-radius: 10px;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   visibility: hidden;
+   transition: background-color 0.5s;
+}
+
+.logo-social,
+.ps-store-sales,
+.second-box-thumb-img{
+   position: relative;
+}
+
+.overlay-giochi i{
+   font-size: 40px;
+   color: white;
+} 
+
+.logo-social a:hover .overlay,
+.ps-store-sales a:hover .overlay,
+.second-box-thumb-img a:hover .overlay-giochi{
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.4);
+} 
 
