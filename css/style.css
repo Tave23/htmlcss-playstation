@@ -1,20 +1,5 @@
 
 
-.td-header-button:focus{
-   box-shadow: 0px 0 0 0.15rem black; 
-   border-color: white;
-}
-
-.td-jumbo-button:focus{
-   box-shadow: 0px 0 0 0.15rem #DC3545; 
-   border-color: white;
-}
-
-.td-button{
-   border-radius: 20px;
-}
-
-
 /* header */
 
 /* sony line */
@@ -129,26 +114,67 @@ header{
 }
 
 /* info ps5 */
+
+ .info-ps5 h6{
+   margin-bottom: -3px;
+   color: #0570D1;
+   text-transform: uppercase;
+ }
+
+ .info-ps5 h2{
+   margin-bottom: 20px;
+   font-size: 35px;
+}
+
+.info-ps5 p{
+   color: gray;
+}
+
+   /* ecco la ps5 */
+
    .intro-ps5{
       text-align: center;
       padding-top: 40px;
    }
 
-   .intro-ps5 h6{
-      margin-bottom: -3px;
-      color: #0570D1;
-      text-transform: uppercase;
+
+   /* /ecco la ps5 */
+
+   /* console ps5 */
+
+   .console-ps5{
+      padding-top: 50px;
+      width: 90%;
+      margin: 0 auto;
    }
 
-   .intro-ps5 h2{
-      margin-bottom: 20px;
-      font-size: 35px;
+   .thumbs-ps5 p{
+      text-align: center;
+      font-size: 13px;
+   }
+   
+   .text-console-ps5{
+      margin-top: 150px;
    }
 
-   .intro-ps5 p{
-      color: gray;
+   .photo-console-ps5 img{
+      width: 100%;
    }
 
+   .thumbs-ps5 img{
+      width: 80%
+   }
+
+   .thumbs-ps5 .box{
+      opacity: 50%;
+   }
+
+   .thumbs-ps5 .box:hover{
+      opacity: 100%;
+      border-bottom: 2px solid #0570D1;
+   }
+
+   /* /console ps5 */
 /* /info ps5 */
 
 
@@ -168,3 +194,26 @@ footer{
    background-color: white;
 }
 /* /footer */
+
+/* buttons */
+
+
+.td-header-button:focus{
+   box-shadow: 0px 0 0 0.15rem black; 
+   border-color: white;
+}
+
+.td-jumbo-button:focus{
+   box-shadow: 0px 0 0 0.15rem #DC3545; 
+   border-color: white;
+}
+
+.td-console-button:focus{
+   box-shadow: 0px 0 0 0.15rem #0570D1; 
+   border-color: white;
+}
+
+.td-button{
+   border-radius: 20px;
+}
+
