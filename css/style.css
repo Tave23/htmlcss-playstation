@@ -135,15 +135,31 @@ header{
    color: gray;
 }
 
-   /* ecco la ps5 */
+   /* general intro*/
 
-   .intro-ps5{
+   .intro-ps5,
+   .intro-ps4,
+   .intro-store{
       text-align: center;
       padding-top: 40px;
    }
 
+   .intro-ps4 h2,
+   .intro-ps5 h2,
+   .intro-store h2{
+      margin-bottom: 20px;
+      font-size: 35px;
+   }
 
-   /* /ecco la ps5 */
+
+   .intro-ps4 p,
+   .main-ps4 p,
+   .intro-store p,
+   .info-ps5 p{
+      color: gray;
+   }
+
+   /* /general intro */
 
    /* console ps5 */
 
@@ -231,20 +247,6 @@ header{
    padding: 20px;
 }
 
-.intro-ps4{
-   text-align: center;
-   padding-top: 30px;
-}
-
-.intro-ps4 h2{
-   margin-bottom: 20px;
-   font-size: 35px;
-}
-
-.intro-ps4 p,
-.main-ps4 p{
-   color: gray;
-}
 
 .main-ps4{
    padding-top: 50px;
@@ -284,6 +286,27 @@ header{
    min-height: 500px;
 }
 /* /ps-plus */
+/* sconti-store */
+
+.store{
+   width: 100%;
+   padding: 0 20px;
+}
+
+.intro-store{
+   padding: 50px 0;
+}
+
+.ps-store-sales img{
+   width: 100%;
+   
+}
+
+.ps-store-sales{
+   margin-bottom: 40px;
+}
+
+/* /sconti-store */
 
 
 
