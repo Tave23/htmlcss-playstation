@@ -257,23 +257,37 @@ header{
 }
 
 /* /esplora ps4 */
-/* ps-plus */
+/* ps-plus */ /* ps-now */
 
-.ps-plus{
+.ps-plus,
+.ps-now{
    width: 100%;
    padding: 0 20px;
-   background-color: #BEBCBB;
    margin-top: 50px;
 }
 
-.text-ps-plus img{
+.ps-plus{
+   background-color: #BEBCBB;
+}
+
+.ps-now{
+   background-color: #161C3B;
+}
+
+.text-ps-plus img,
+.text-ps-now img{
    width: 80%;
    padding-top: 70px;
 }
 
-.text-ps-plus p{
+.text-ps-plus p,
+.text-ps-now p{
    font-size: 22px;
    padding: 80px 0 50px;
+}
+
+.text-ps-now p{
+   color: white;
 }
 
 .td-ps-plus-button{
@@ -281,11 +295,16 @@ header{
    margin-bottom: 50px;
 }
 
-.monthly-game-ps-plus img{
+.td-ps-now-button{
+   margin-bottom: 50px;
+}
+
+.monthly-game-ps-plus img,
+.monthly-game-ps-now img{
    width: 100%;
    min-height: 500px;
 }
-/* /ps-plus */
+/* /ps-plus */ /* /ps-now */
 /* sconti-store */
 
 .store{
@@ -312,6 +331,11 @@ header{
 
 
 
+
+
+
+
+
 /* footer */
 footer{
    height: 200px;
@@ -333,9 +357,14 @@ footer{
    border-color: white;
 }
 
-.td-console-button:focus{
+.td-console-button:focus,
+.td-ps-now-button:focus{
    box-shadow: 0px 0 0 0.15rem #0570D1; 
    border-color: white;
+}
+
+.td-ps-now-button:focus{
+   color: #0570D1;
 }
 
 .td-ps-plus-button:focus{
@@ -344,8 +373,13 @@ footer{
    color: #0570D1;
 }
 
-.td-ps-plus-button:hover{
+.td-ps-plus-button:hover,
+.td-ps-now-button:hover{
    color: #0570D1;
+}
+
+.td-ps-now-button{
+
 }
 
 
