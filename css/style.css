@@ -255,7 +255,35 @@ header{
 }
 
 /* /esplora ps4 */
+/* ps-plus */
 
+.ps-plus{
+   width: 100%;
+   padding: 0 20px;
+   background-color: #BEBCBB;
+   margin-top: 50px;
+}
+
+.text-ps-plus img{
+   width: 80%;
+   padding-top: 70px;
+}
+
+.text-ps-plus p{
+   font-size: 22px;
+   padding: 80px 0 50px;
+}
+
+.td-ps-plus-button{
+   color: #0570D1;
+   margin-bottom: 50px;
+}
+
+.monthly-game-ps-plus img{
+   width: 100%;
+   min-height: 500px;
+}
+/* /ps-plus */
 
 
 
@@ -286,6 +314,17 @@ footer{
    box-shadow: 0px 0 0 0.15rem #0570D1; 
    border-color: white;
 }
+
+.td-ps-plus-button:focus{
+   box-shadow: 0px 0 0 0.15rem #D9DADC; 
+   border-color: white;
+   color: #0570D1;
+}
+
+.td-ps-plus-button:hover{
+   color: #0570D1;
+}
+
 
 .td-button{
    border-radius: 20px;
