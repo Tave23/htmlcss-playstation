@@ -104,10 +104,8 @@ header{
    margin: 0 auto;
 }
 
-.jumbo-text h3{
-   font-size: 60px;
+.jumbo-text h2{
    margin-bottom: 35px;
-   font-size: 35px;
 }
 
 .jumbo-text p{
@@ -154,7 +152,6 @@ header{
 
  .info-ps5 h2{
    margin-bottom: 20px;
-   font-size: 35px;
 }
 
 .info-ps5 p{
@@ -174,7 +171,6 @@ header{
    .intro-ps5 h2,
    .intro-store h2{
       margin-bottom: 20px;
-      font-size: 35px;
    }
 
 
@@ -197,7 +193,7 @@ header{
 
    .thumbs-ps5 p{
       text-align: center;
-      font-size: 13px;
+      font-size: 11px;
    }
    
    .text-console-ps5{
@@ -206,6 +202,7 @@ header{
 
    .photo-console-ps5 img{
       width: 100%;
+      margin-top: 20px;
    }
 
    .thumbs-ps5 img{
