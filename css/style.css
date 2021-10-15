@@ -3,7 +3,7 @@
    display: table;
    clear: both;
 }
-
+ 
 /* header */
 
 /* sony line */
@@ -101,12 +101,13 @@ header{
    left: 0;
    width: 100%;
    color: white;
-   padding-left: 20px;
+   margin: 0 auto;
 }
 
 .jumbo-text h3{
    font-size: 60px;
    margin-bottom: 35px;
+   font-size: 35px;
 }
 
 .jumbo-text p{
@@ -355,10 +356,16 @@ header{
 .intro-social{
    text-align: center;
    padding-bottom: 40px;
+   transition: all 0.5;
 }
 
 .logo-social img{
    width: 100%;
+}
+
+.logo-social:hover{
+   transform: scale(1.05);
+   box-shadow: 0px 20px 20px -5px #000000;
 }
 
 .logo-social{
@@ -429,27 +436,27 @@ footer{
 /* buttons */
 
 
-.td-header-button:focus{
+.td-header-button:hover{
    box-shadow: 0px 0 0 0.15rem black; 
    border-color: white;
 }
 
-.td-jumbo-button:focus{
+.td-jumbo-button:hover{
    box-shadow: 0px 0 0 0.15rem #DC3545; 
    border-color: white;
 }
 
-.td-console-button:focus,
-.td-ps-now-button:focus{
+.td-console-button:hover,
+.td-ps-now-button:hover{
    box-shadow: 0px 0 0 0.15rem #0570D1; 
    border-color: white;
 }
 
-.td-ps-now-button:focus{
+.td-ps-now-button:hover{
    color: #0570D1;
 }
 
-.td-ps-plus-button:focus{
+.td-ps-plus-button:hover{
    box-shadow: 0px 0 0 0.15rem #D9DADC; 
    border-color: white;
    color: #0570D1;
@@ -492,7 +499,6 @@ footer{
    transition: background-color 0.5s;
 }
 
-.logo-social,
 .ps-store-sales,
 .second-box-thumb-img{
    position: relative;
@@ -503,7 +509,6 @@ footer{
    color: white;
 } 
 
-.logo-social a:hover .overlay,
 .ps-store-sales a:hover .overlay,
 .second-box-thumb-img a:hover .overlay-giochi{
   visibility: visible;
