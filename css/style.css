@@ -96,10 +96,7 @@ header{
 }
 
 .jumbo-text{
-   position: absolute;
-   bottom: 50px;
-   left: 0;
-   width: 100%;
+   padding-top: 250px;
    color: white;
    margin: 0 auto;
 }
@@ -213,9 +210,13 @@ header{
       opacity: 50%;
    }
 
+   .thumbs-ps5 .box{
+      border-bottom: 2px solid white;
+   }
+
    .thumbs-ps5 .box:hover{
       opacity: 100%;
-      border-bottom: 2px solid #0570D1;
+      border-color:#0570D1;
    }
 
    /* /console ps5 */
@@ -295,6 +296,7 @@ header{
 .text-ps-plus img,
 .text-ps-now img{
    width: 80%;
+   height: 100%;
    padding-top: 70px;
 }
 
